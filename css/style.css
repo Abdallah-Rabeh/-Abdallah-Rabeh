@@ -231,14 +231,30 @@ color: #FF305b;
     color: #000;
 }
 
-
+.cla li:nth-child(odd){
+display: flex;
+justify-content: start;
+}
+.cla li{
+    display: flex;
+justify-content: flex-end;
+}
 .web-about ul{
   display: table;
 }
-ul{
+.cla ul{
     list-style: outside none none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    background-color: #F1F1F1;
+    height: 70%;
+    padding-top: 50px;
+    color: #000;
+    font-weight: bold;
+
+}.cla ul:hover{
+    background-color: #FFf;
+    box-shadow: 0 15px 20px rgba(0, 0,0,0.1);
 }
 .web-about li:nth-child(2n+1){
     float: left;
@@ -572,6 +588,7 @@ footer ul{
 display: flex;
 justify-content: center;
 align-items: center;
+list-style: none;
 
 }
 footer .foot a{
