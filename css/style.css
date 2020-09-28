@@ -43,7 +43,7 @@ header .layout{
     left:0%;
    width: 100%;
    height: 100%;
-   /* background-color: rgba(0, 0,0,0.8); */
+   background-color: rgba(0, 0,0,0.8);
 
 }
 header .box-1{
@@ -348,13 +348,13 @@ text-align: center;
     transition-duration:.5s;
     }
     
-    #Skills .web:hover{
+    /* #Skills .web:hover{ 
         background-color: #FFf;
         box-shadow: 0 15px 20px rgba(0, 0,0,0.1);
         }
         #Skills .web:hover i{
     transform: scale(1.4);
-            }
+         } */
            #Portfolio .nav-tabs{
                width: fit-content;
                width: -moz-fit-content;
@@ -385,10 +385,13 @@ text-align: center;
             right: 0;
             }  
             #Portfolio .content .nav-tabs .nav-link{
-                padding: 10px;
-                margin: 10px;
-
+                padding: 15px;
+                margin: 15px;
+                background: black;
+                color: #f1f1f1;
+                font-size: 20px;
             }
+
             #Portfolio .content a{
                 color: #000; 
                 
