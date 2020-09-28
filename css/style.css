@@ -232,12 +232,16 @@ color: #FF305b;
 }
 
 .cla li:nth-child(odd){
-display: flex;
-justify-content: start;
+    padding-top: 10px;
+    display: flex;
+    border-bottom: 10px solid #00f;
+    justify-content: start;
+
 }
 .cla li{
     display: flex;
 justify-content: flex-end;
+padding-top: 10px;
 }
 .web-about ul{
   display: table;
