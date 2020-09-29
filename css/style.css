@@ -388,6 +388,8 @@ text-align: center;
             } */ 
             #Portfolio img{
                 position: relative;
+                margin-top: 35px !important;
+                margin: auto;
             }
             #Portfolio button{position: absolute; top: 0; left: 0; width: 100%; border: none;    padding: 15px;
                 margin: 15px;
