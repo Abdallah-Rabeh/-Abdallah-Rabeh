@@ -43,8 +43,8 @@ header .layout{
     left:0%;
    width: 100%;
    height: 100%;
-   background-color: rgba(0, 0,0,0.8);
-
+   /* background-color: rgba(0, 0,0,0.8); */
+   background-image: url("../image/PertinentIgnorantKakapo-size_restricted.gif");
 }
 header .box-1{
     text-align: center;
@@ -364,6 +364,7 @@ text-align: center;
                position: relative;
                margin-bottom: 27px;
            }
+         /*
            #Portfolio .content .logo .layout{
             position: absolute;
             top: 0;left: 0;
@@ -383,7 +384,18 @@ text-align: center;
             position: absolute;
             bottom: 5px;
             right: 0;
-            }  
+            } */ 
+            #Portfolio img{
+                position: relative;
+            }
+            #Portfolio button{position: absolute; top: 0; left: 0; width: 100%; border: none;    padding: 15px;
+                margin: 15px;
+                background: black;
+                color: #f1f1f1;
+                font-size: 20px;}
+            #Portfolio i{
+                position: absolute; top: 0; left: 0; width: 100%;
+            }
             #Portfolio .content .nav-tabs .nav-link{
                 padding: 15px;
                 margin: 15px;
@@ -396,191 +408,7 @@ text-align: center;
                 color: #000; 
                 
             }
-.cat{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-background-color: #F1F1F1;
-margin-top: 70px;
-text-align: center;
-color: #000;
-animation-name: Abdallah;
-animation-duration: 2s;
-animation-delay: 1s;  
-animation-fill-mode: backwards;
-animation-iteration-count: infinite;
 
-}
-.cat i{
-color: #FF305b;
-font-size: 30px;
-margin-bottom: 15px;
-}
-.cat h4{
-    font-size: 26px;
-    font-weight: 800; 
-}
-.cat h2{
-    font-size: 16px;
-    bottom: 0;
-
-
-}
-@keyframes Abdallah{
-    0%{
-    color: #000;
-    }
-    34%{
-        color: #007788;
-        }
-
-        50%{
-            color: #007788;
-            
-            }
-
-            84%{
-                color: #0778;
-                }
-                34%{
-                    color: #0078;
-                    }
-                    99%{
-                        color: #FF305b;
-                    }
-                    100%{
-                        color: #f00;
-                    }
-}
-#Testimonial {
-    transition: all 1s ease-in-out;
-    padding: 10px;
-}
-#Testimonial .carousel-indicators{
-    bottom: -30px;
-}
-#Testimonial .carousel-indicators li{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: transparent;
-    border: 1px solid
-    #FF305b;
-}
-#Testimonial .car{
-    background-color: #F1F1F1;
-    border-radius: 10px;
-   position: relative;
-   overflow: hidden;
-    
-}
-
-#Testimonial .carousel-indicators .active{
-background: #FF305b !important;
-
-}
-#Testimonial .i
-{
-    color: #f1c30d
-}
-
-#Testimonial h2{
-    font-size: 30px;
-color: #000;
-}
-#Testimonial img{
-    width: 130px !important;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
- margin: 5px 76px; 
-}
-#Testimonial .cat{
-    position: absolute;
-    left: 0;
-    top:-100px;
-    width: 150px;
-    height: 150px;
-    background-color: #FF305b;
-    clip-path: polygon(0 0, 0 100%, 100% 0);
-}
-#Testimonial .h7{
-    margin: 10px 10px;
-}
-#Testimonial p{
-    margin: 10px 10px;
-}
-#Blog{
-    background: #F1F1F1;
-    padding: 100px 0px 70px;
-}
-
-#Blog .logo{
-    background: #fff;
-  color: #555;
-  padding: 20px;
-  height: auto;
-  margin-bottom: 10px;
-}
-#Blog .logo img{
-   margin-bottom: 20px;
-  }
-
-  #Blog .logo h4{
-    margin-left: 10px;
-   }
-
-   #Blog .logo h3{
-    font-weight: 600;
-    margin: 0 0 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #333;
-    font-size: 26px;
-    text-transform: capitalize;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-#Blog .logo h3:hover
-{
-    color: #FF305b;
-}
-
-#Blog .logo p{
-    font: 16px;
-    margin: 0px 0px 15px;
-}
-
-#Blog .logo h5{
-    transition: all 1s ease-in-out;
-    -webkit-transition:all 1s ease-in-out;
-}  
-  
-#Blog .logo h5:hover{
-    color: #FF305b;
-}  
-#Contact{
-    max-width: 100%;
-    height: auto;
-}
-#Contact .btn-success.disabled,
- .btn-success:disabled{
-    background-color: #FF305b;
-    border-color: #FF305b;
-}
-#Contact input{
-font-size: 20px;
-height: 40px;
-
-}
-#Contact textarea{
-font-size: 20px;
-resize: none;
-height: auto;
-}
 footer{
     background-color: rgba(0, 0,0,0.8);
     width: 100%;
