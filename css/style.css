@@ -88,6 +88,7 @@ header nav .navbar-brand{
     font-weight: bolder;
     width: 40px!important;
     color: #FF305b !important;
+    margin-left: 10px !important;
 }
 header nav .navbar-brand span{
    font-weight:bolder; 
@@ -390,7 +391,7 @@ text-align: center;
             }
             #Portfolio button{position: absolute; top: 0; left: 0; width: 100%; border: none;    padding: 15px;
                 margin: 15px;
-                background: black;
+                background: #ff305b;
                 color: #f1f1f1;
                 font-size: 20px;}
             #Portfolio i{
@@ -399,7 +400,7 @@ text-align: center;
             #Portfolio .content .nav-tabs .nav-link{
                 padding: 15px;
                 margin: 15px;
-                background: black;
+                background: #ff305b;
                 color: #f1f1f1;
                 font-size: 20px;
             }
