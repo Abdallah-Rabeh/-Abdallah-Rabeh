@@ -22,9 +22,7 @@
     color: #000;
   }
   
-  header nav .navbar-collapse{
-    background-color: rgba(0,0,0,0.2)!important;
-  }
+  
   #About{
     display: flex;
   }
