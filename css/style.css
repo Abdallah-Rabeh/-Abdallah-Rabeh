@@ -397,6 +397,9 @@ text-align: center;
             #Portfolio i{
                 position: absolute; top: 0; left: 0; width: 100%;
             }
+            .logo{
+                margin-top: 20px;
+            }
             #Portfolio .content .nav-tabs .nav-link{
                 padding: 15px;
                 margin: 15px;
