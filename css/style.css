@@ -67,11 +67,13 @@ header li:focus{
 }
 header .nav-link li.active a:hover{
     color: #ff305b;
+    transition: all 1s ease-in-out;
 }
 header .nav-link li a:focus li a:hover
 .cd-words-wrapper{
     margin-bottom: 1px;
     color: #ff305b;
+    transition: all 1s ease-in-out;
 }
 header nav.navbar.navbar-light{
    
@@ -106,9 +108,11 @@ header nav .navbar-brand span{
 .navbar-light .navbar-nav .nav-link:hover{
     color: #FF305b !important;
     cursor: pointer;
+    transition: all 1s ease-in-out;
 }
 .navbar-light.navbar-nav.nav-link:active{
     color: #FF305b !important;
+    transition: all 1s ease-in-out;
     
 }
 
@@ -131,6 +135,7 @@ header nav .navbar-brand span{
 }
 #Skills{
     background-color:#F1F1F1;   
+    transition: all 1s ease-in-out;
 }
 .header
 {
@@ -160,6 +165,14 @@ margin: auto;
     width: 50%;
     margin:4px auto;
 }
+header nav{
+    position: fixed !important;
+    top:0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 10px !important;
+    background-color: #000;
+}
 #Skills .web,
 #Portfolio .web{
 padding: 20px 10px;
@@ -183,13 +196,7 @@ text-align: center;
     transition-duration:.5s;
     }
     
-    /* #Skills .web:hover{ 
-        background-color: #FFf;
-        box-shadow: 0 15px 20px rgba(0, 0,0,0.1);
-        }
-        #Skills .web:hover i{
-    transform: scale(1.4);
-         } */
+
            #Portfolio .nav-tabs{
                width: fit-content;
                width: -moz-fit-content;
@@ -199,15 +206,9 @@ text-align: center;
                position: relative;
                margin-bottom: 27px;
            }
-         /*
-           #Portfolio .content .logo .layout{
-            position: absolute;
-            top: 0;left: 0;
-            width: 100%;height: 100%;
-            background-color: rgba(0, 0,0,0.3);
-            opacity: 0;
-          
-            
+         
+           #Portfolio{
+           transition: all 1s ease-in-out; 
         }
         
         #Portfolio .content .logo:hover .layout{
