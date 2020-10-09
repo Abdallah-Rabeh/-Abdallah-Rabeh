@@ -226,6 +226,9 @@ text-align: center;
                 margin-top: 35px !important;
                 margin: auto;
             }
+            .p-20{
+                padding: 25px;
+            }
             #Portfolio button{position: absolute; top: 0; left: 0; width: 100%; border: none;    padding: 15px;
                 margin: 15px;
                 background: #ff305b;
@@ -234,6 +237,7 @@ text-align: center;
             #Portfolio i{
                 position: absolute; top: 0; left: 0; width: 100%;
                 color: #ff305b;
+                padding: 0 !important;
             }
             .logo{
                 margin-top: 20px;
