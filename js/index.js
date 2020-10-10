@@ -31,8 +31,7 @@ $('nav ul li a').click(function(e){
 
     },900)
 });
-
-$('body').css('PaddingTop', $('nav').innerHeight());
-
-
-
+// navbar
+// $('body').css('PaddingTop', $('nav').innerHeight());
+$('body').css('marginTop', $('nav').innerHeight());
+// 
