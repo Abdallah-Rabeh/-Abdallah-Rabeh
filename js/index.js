@@ -25,12 +25,12 @@ $("textarea").keyup(function () {
 
 //scroll smoothy navbar
 $('nav ul li a').click(function(e){
-  e.preventDefault();
+  // e.preventDefault();
     $('html, body').animate({
-        scrollTop: $('#'+ $(this).data('scroll')).offset().top
-
-    },900)
+        scrollTop: $('#' +  $(this).data('scroll')).offset().top
+    },1000)
 });
+
 // navbar
 // $('body').css('PaddingTop', $('nav').innerHeight());
 $('body').css('marginTop', $('nav').innerHeight());
